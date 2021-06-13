@@ -1,4 +1,6 @@
 body {
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Inconsolata", monospace;
   display: flex;
   flex-direction: column;

@@ -65,7 +65,7 @@ function onBgImgChange() {
 
 function getName() {
     if (localStorage.getItem('name') === null) {
-        refs.name.textContent = 'Enter your name'
+        refs.name.textContent = '[Enter your name]'
        
     } else {
         refs.name.textContent = localStorage.getItem('name')
@@ -86,7 +86,7 @@ function setName(e) {
 
 function getFocus() {
     if (localStorage.getItem('focus') === null) {
-        refs.focus.textContent = 'Enter your focus'
+        refs.focus.textContent = '[Enter your focus]'
        
     } else {
         refs.focus.textContent = localStorage.getItem('focus')
